@@ -101,6 +101,22 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    func getQueryResults(){
+    // construct PFQuery
+    let query = Post.query()
+    query.orderByDescending("createdAt")
+    query.includeKey("author")
+    query.limit = 20
+    
+    // fetch data asynchronously
+    query.findObjectsInBackgroundWithBlock { (posts: [Post]?, error: NSError?) -> Void in
+    if let posts = posts {
+    // do something with the data fetched
+    } else {
+    // handle error
+    }
+    }
 
 
 }

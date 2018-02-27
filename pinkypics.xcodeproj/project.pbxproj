@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7447D36A204534A700BD1E7D /* ImageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447D369204534A700BD1E7D /* ImageListViewController.swift */; };
 		7447D36C2045430900BD1E7D /* InstagramPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447D36B2045430900BD1E7D /* InstagramPostTableViewCell.swift */; };
+		7447D36E2045463C00BD1E7D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447D36D2045463C00BD1E7D /* Post.swift */; };
 		74C327FE203D0071006FAD20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C327FD203D0071006FAD20 /* AppDelegate.swift */; };
 		74C32800203D0071006FAD20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C327FF203D0071006FAD20 /* ViewController.swift */; };
 		74C32803203D0071006FAD20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C32801203D0071006FAD20 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		39E5196C34BDDC8C2FC90540 /* Pods-pinkypics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinkypics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pinkypics/Pods-pinkypics.debug.xcconfig"; sourceTree = "<group>"; };
 		7447D369204534A700BD1E7D /* ImageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewController.swift; sourceTree = "<group>"; };
 		7447D36B2045430900BD1E7D /* InstagramPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPostTableViewCell.swift; sourceTree = "<group>"; };
+		7447D36D2045463C00BD1E7D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		74C327FA203D0071006FAD20 /* pinkypics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinkypics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C327FD203D0071006FAD20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74C327FF203D0071006FAD20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				74C32809203D0071006FAD20 /* Info.plist */,
 				7447D369204534A700BD1E7D /* ImageListViewController.swift */,
 				7447D36B2045430900BD1E7D /* InstagramPostTableViewCell.swift */,
+				7447D36D2045463C00BD1E7D /* Post.swift */,
 			);
 			path = pinkypics;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				7447D36A204534A700BD1E7D /* ImageListViewController.swift in Sources */,
 				74C32800203D0071006FAD20 /* ViewController.swift in Sources */,
 				74C327FE203D0071006FAD20 /* AppDelegate.swift in Sources */,
+				7447D36E2045463C00BD1E7D /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
